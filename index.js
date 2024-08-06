@@ -38,9 +38,9 @@ window.addEventListener("load", function () {
   var buildUrl = "Build";
   var loaderUrl = buildUrl + "/MyFarm.loader.js";
   var config = {
-    dataUrl: buildUrl + "/MyFarm.data.gz",
-    frameworkUrl: buildUrl + "/MyFarm.framework.js.gz",
-    codeUrl: buildUrl + "/MyFarm.wasm.gz",
+    dataUrl: buildUrl + "/MyFarm.data",
+    frameworkUrl: buildUrl + "/MyFarm.framework.js",
+    codeUrl: buildUrl + "/MyFarm.wasm",
     streamingAssetsUrl: "StreamingAssets",
     companyName: "DefaultCompany",
     productName: "Zen Farm",
